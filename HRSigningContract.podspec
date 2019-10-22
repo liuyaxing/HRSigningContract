@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
                 电子签约SDK，用来集成APP
                        DESC
 
-  s.homepage         = 'https://github.com/bizhanlu/HRSigningContract'
+  s.homepage         = 'https://gitee.com/bizhanlu/HRSigningContract'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bizhanlu' => 'bizhanlu@hrfax.cn' }
-  s.source           = { :git => 'https://github.com/bizhanlu/HRSigningContract.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://gitee.com/bizhanlu/HRSigningContract.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
   s.vendored_frameworks = 'Frameworks/*'
