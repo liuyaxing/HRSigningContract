@@ -21,4 +21,8 @@ Pod::Spec.new do |s|
   s.author           = { 'bizhanlu' => 'bizhanlu@hrfax.cn' }
   s.source           = { :git => 'https://gitee.com/bizhanlu/HRSigningContract.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
+
+  s.vendored_frameworks = 'Frameworks/*'
+  s.resources = 'Resources/*'
+  s.libraries = 'stdc++'
 end
