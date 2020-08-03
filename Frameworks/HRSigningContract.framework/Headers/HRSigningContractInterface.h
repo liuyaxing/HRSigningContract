@@ -33,7 +33,7 @@ FOUNDATION_EXPORT const unsigned char HRSigningContractVersionString[];
  电子签约调用
  @param orderNo 订单号
  @param assurerNo 合作商户号
- @param hrdns sdk环境 1开发环境 2生产环境 3银行测试环境
+ @param hrdns sdk环境 10测试环境  11 测试环境    20生产环境   30银行测试环境
  @param successAlert 调启征信页面成功
  @param bankCardCertificationResult 四要素认证结果返回
  @param signComplete 签署成功回调
