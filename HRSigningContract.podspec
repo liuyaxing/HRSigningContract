@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HRSigningContract'
-  s.version          = '1.7.2.0.6'
+  s.version          = '1.7.2.0.7'
   s.summary          = '电子签约SDK'
   s.description      = <<-DESC
                 电子签约SDK，用来集成APP
