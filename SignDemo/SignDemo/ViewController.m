@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <Toast/Toast.h>
 #import "HRSaving.h"
 #import <HRSigningContract/HRSigningContractInterface.h>
 @interface ViewController (){
@@ -95,20 +94,16 @@
 
     if (textFile.text.length > 0) {
     
-    [[HRSigningContractInterface sharedUtil] signingContractOrderNo:textFile.text assurerNo:textFile1.text domainNameSystem:@"3" successAlert:^(NSDictionary *successAlertDic) {
+    [[HRSigningContractInterface sharedUtil] signingContractOrderNo:textFile.text assurerNo:textFile1.text domainNameSystem:@"1" successAlert:^(NSDictionary *successAlertDic) {
         NSLog(@"%@", successAlertDic);
-        [self.view hideToastActivity];
     } bankCardCertificationResult:^(NSDictionary *bankCardCertificationResultDic) {
         NSLog(@"%@", bankCardCertificationResultDic);
-        [self.view hideToastActivity];
 
     } signComplete:^(NSDictionary *signCompleteDic) {
         NSLog(@"%@", signCompleteDic);
-        [self.view hideToastActivity];
        
     } error:^(NSDictionary *errorDic) {
         NSLog(@"%@", errorDic);
-        [self.view hideToastActivity];
 
     }];
     

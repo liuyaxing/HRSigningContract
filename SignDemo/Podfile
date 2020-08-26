@@ -2,8 +2,10 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'SignDemo' do
-  pod 'HRSigningContract' , :path => '../'
-  #pod 'HRSigningContract',:git=>'https://gitee.com/bizhanlu/HRSigningContract.git'
+#  pod 'HRSigningContract' , :path => '../'
+pod 'HRLivingBodyDetection',:git=>'https://gitee.com/bizhanlu/HRLivingBodyDetection',:tag=>'1.0.3'
+
+  pod 'HRSigningContract',:git=>'https://gitee.com/bizhanlu/HRSigningContract.git',:tag=>'1.7.2.0.6'
 end
 
 post_install do |installer|
