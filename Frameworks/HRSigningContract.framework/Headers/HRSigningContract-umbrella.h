@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HRGHDomain.h"
 #import "HRSigningContractInterface.h"
 
 FOUNDATION_EXPORT double HRSigningContractVersionNumber;
