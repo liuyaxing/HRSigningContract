@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HRSigningContract'
-  s.version          = '1.7.2.0.8'
+  s.version          = '1.7.2.0.9'
   s.summary          = '电子签约SDK'
   s.description      = <<-DESC
                 电子签约SDK，用来集成APP
@@ -24,4 +24,16 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'Frameworks/*'
   s.resources = 'Resources/*'
   s.libraries = 'stdc++'
+
+  
+  s.dependency 'AFNetworking'
+  s.dependency 'SDWebImage'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'NIMSDK'
+  s.dependency 'Masonry'
+  s.dependency 'MJRefresh'
+  s.dependency 'MJExtension'
+  s.dependency 'WPAttributedMarkup'
+  s.dependency 'MBProgressHUD'
+
 end
