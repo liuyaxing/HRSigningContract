@@ -7,8 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "HRGHDomain.h"
-
 typedef void(^successAlertResultBlock)(NSDictionary *successAlertDic);
 typedef void(^errorResultBlock)(NSDictionary *errorDic);
 typedef void(^bankCardCertificationResultBlock)(NSDictionary *bankCardCertificationResultDic);
