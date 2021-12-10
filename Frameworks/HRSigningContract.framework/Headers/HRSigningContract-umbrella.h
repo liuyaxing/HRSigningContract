@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HRGHConfig.h"
 #import "HRGHDomain.h"
 #import "HRSigningContractInterface.h"
 
